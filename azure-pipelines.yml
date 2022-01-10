@@ -10,7 +10,7 @@ pool:
   name: 'MyAgentPool'
 
 steps:
-- task: "PowerShell@2"
+- task: Bash@3
   displayName: 'Workaround: Set environment variables manually'
   inputs:
       targetType: 'inline'
